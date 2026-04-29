@@ -1,20 +1,39 @@
-data/tokenizers
+# -----------------------------
+# Python cache
+# -----------------------------
 __pycache__/
-.DS_Store
-modded-nanogpt/
-modded-nanogpt
-data/datasets
-data/manifest.json
-data/docs_selected.jsonl
+*.pyc
 .mypy_cache/
-.venv
-logs/
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
 venv/
 .venv/
-data/datasets/
+venv_openai/
+
+# -----------------------------
+# Data (ALL data folders)
+# -----------------------------
+data/
+records/
+logs/
+
+# -----------------------------
+# Models / checkpoints
+# -----------------------------
 *.pt
 *.pth
+*.ptz
 *.bin
 *.npy
-venv_openai/
-.ptz
+
+# -----------------------------
+# Project-specific
+# -----------------------------
+modded-nanogpt/
+
+# -----------------------------
+# OS files
+# -----------------------------
+.DS_Store
